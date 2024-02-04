@@ -1,0 +1,27 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-nafe_rt1170" type="demo" format="projectfile" name="nafe_rt1170">
+    <display_title>
+        i.MX RT1170 + NAFE13388 drivers and demos
+    </display_title>
+    <overview>
+        <![CDATA[This example demonstrates how to use NAFE13388 and i.MXRT1170 to sample analog signals. The results are either shown in a serial terminal window or in waveforms by using the FreeMASTER Run-Time Debugging Tool.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="iar"></toolchain>
+    </toolchains>
+    <families>
+        <family name="imxrt"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="MIMXRT1170-EVK"></hw>
+        <hw id="MIMXRT1170-EVKB"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="dma"></peripheral>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="spi"></peripheral>
+        <peripheral name="uart"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="industrial"></category>
+    </categories>
+</data:item>

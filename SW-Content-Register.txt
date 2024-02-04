@@ -1,0 +1,35 @@
+NXP Software Content Register
+
+Package:                   dm-nafe_rt1170
+
+Release Version:           1.0
+Outgoing License:          LA_OPT_NXP_Software_License v49 September 2023- Additional Distribution License granted, license in Section 2.3 applies
+License File:              LICENSE.txt
+Description and comments:  This example demonstrates how to use NAFE13388 and i.MXRT1170 to sample analog signals.
+Release Location:          https://github.com/nxp-appcodehub/dm-nafe_rt1170
+Origin:                    NXP (proprietary)
+                           NXP (BSD-3-Clause)
+                           CMSIS (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/
+                           IAR (Apache-2.0) for CMSIS/Include/cmsis_iccarm.h
+
+
+cmsis                      Name: CMSIS-Core(M)
+                           Version: 5.3.0
+                           Outgoing License: Apache License 2.0
+                           License File: CMSIS/LICENSE.txt
+                           Format: source code
+                           Description: Vendor-independent hardware
+                           abstraction layer for microcontrollers that are
+                           based on Arm Cortex processors, distributed by
+                           ARM. cores
+                           Release location: https://github.com/nxp-appcodehub/dm-nafe_rt1170/CMSIS/
+                           Origin: ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
+
+cmsis_iccarm               Name: cmsis_iccarm
+                           Version: 5.1.0
+                           Outgoing License: Apache License 2.0
+                           License File: CMSIS/LICENSE.txt
+                           Format: source code
+                           Description: CMSIS compiler ICCARM (IAR Compiler for Arm) header file
+                           Release location: https://github.com/nxp-appcodehub/dm-nafe_rt1170/CMSIS/cmsis_iccarm.h
+                           Origin: ARM (Apache-2.0) - https://github.com/ARM-software/CMSIS_5/releases/tag/5.6.0
